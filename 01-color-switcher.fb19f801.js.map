@@ -1,1 +1,0 @@
-{"mappings":"AAAAA,QAAQC,IAAI,SACZC,MAAM","sources":["src/js/01-color-switcher.js"],"sourcesContent":["console.log('hello');\nalert('Hello world!');\n"],"names":["console","log","alert"],"version":3,"file":"01-color-switcher.fb19f801.js.map"}
