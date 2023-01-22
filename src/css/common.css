@@ -10,9 +10,47 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  max-width: 500px;
+  margin: auto;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+#datetime-picker {
+  width: 300px;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+#start-button {
+  font-size: 2em;
+  margin-left: 0.5em;
+  padding: 0.5em;
+}
+.timer {
+  display: flex;
+  gap: 20px;
+
+  width: 422px;
+  justify-content: space-between;
+}
+
+.field {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-size: 3em;
+}
+
+.label {
+  font-size: 1.5em;
 }
